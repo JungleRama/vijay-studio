@@ -1,0 +1,37 @@
+[
+    {
+      "name": "Greenhaven Tiny Homes",
+      "description": "Greenhaven Tiny Homes specializes in eco-friendly and sustainable tiny homes. The website is built using Webflow and features product pages, customer testimonials, and an easy-to-navigate layout. It includes CMS functionality to manage team members and house listings.",
+      "image": "https://raw.githubusercontent.com/JungleRama/greenhaven-tiny-homes/refs/heads/main/GreenHaven's-Tiny-Homes-HomePage_01.png",
+      "github": "https://github.com/JungleRama/greenhaven-tiny-homes",
+      "drive_link": "https://drive.google.com/file/d/1WraBS6rr3t4-jqtLZi484jangbqEnxFN/view?usp=sharing"
+    },
+    {
+      "name": "Horalux",
+      "description": "Horalux is a luxury watch e-commerce website designed to provide an elegant and high-end shopping experience. The website includes CMS functionality for managing products, product information, checkout, and more.",
+      "image": "https://raw.githubusercontent.com/JungleRama/horalux-watches/refs/heads/main/Horalux-Hero-Class-T.png",
+      "github": "https://github.com/JungleRama/horalux-watches",
+      "drive_link": "https://drive.google.com/file/d/1Vtm57vh1g9xlYUVdZTvp_srDDbbc7uFD/view?usp=drive_link"
+    },
+    {
+      "name": "Nidra",
+      "description": "Nidra is a tech-health company launching an AI-integrated smart mattress and pillow set. The website focuses on showcasing the product's innovative features and includes detailed product information, customer reviews, and strategic CTA placements.",
+      "image": "https://raw.githubusercontent.com/JungleRama/Nidra/refs/heads/main/Nidra-Hero--nidra-sleep.png",
+      "github": "https://github.com/JungleRama/Nidra",
+      "drive_link": "https://drive.google.com/file/d/1gbRofozK3WeKI_PTRexjB_BDSiXjjASf/view?usp=drive_link"
+    },
+    {
+      "name": "Opulent Seas",
+      "description": "Opulent Seas is a luxury yacht charter service website that offers a seamless and elegant user experience. The website features yacht listings, booking contact forms, and an immersive gallery showcasing luxurious amenities.",
+      "image": "https://raw.githubusercontent.com/JungleRama/Opulent-Seas/refs/heads/main/Hero---Opulent-Seas---opulent-seas.png",
+      "github": "https://github.com/JungleRama/Opulent-Seas",
+      "drive_link": "https://drive.google.com/file/d/16430rKcul-clcCSP0dYdq2qcpTBDrcq3/view?usp=drive_link"
+    },
+    {
+      "name": "Victory Solutions",
+      "description": "Victory Solutions is my personal portfolio website, showcasing my web design and development projects. The website includes custom HTML, CSS, and JavaScript for unique interactions, such as a smooth scrolling experience and a local clock in the footer.",
+      "image": "https://raw.githubusercontent.com/JungleRama/Victory-Solutions/refs/heads/main/Victory-Solutions.png",
+      "github": "https://github.com/JungleRama/Victory-Solutions",
+      "drive_link": "https://drive.google.com/file/d/1D0p1t6zriR9QgFrQ17WELcMSyp41gHf8/view?usp=drive_link"
+    }
+]

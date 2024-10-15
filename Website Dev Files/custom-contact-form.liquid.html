@@ -1,0 +1,149 @@
+<section class="contact-section">
+  <section id="contact">
+  <div class="contact-container">
+    <h2>Get in Touch</h2>
+    <p>If you’d like to discuss a project or simply want to say hello, feel free to contact me using the form below.</p>
+
+    <form method="post" action="/contact#contact_form" id="contact_form" class="contact-form">
+      
+      <div class="form-group">
+        <label for="contact_name">Name</label>
+        <input type="text" id="contact_name" name="contact[name]" placeholder="Your Name" required>
+      </div>
+
+      
+      <div class="form-group">
+        <label for="contact_email">Email</label>
+        <input type="email" id="contact_email" name="contact[email]" placeholder="Your Email" required>
+      </div>
+
+      
+      <div class="form-group">
+        <label for="contact_message">Message</label>
+        <textarea id="contact_message" name="contact[body]" rows="5" placeholder="Your Message" required></textarea>
+      </div>
+
+     
+      <button type="submit" class="contact-btn">Send Message</button>
+    </form>
+  </div>
+</section>
+
+<style>
+  
+  .contact-section {
+    background-color: #1B3136;
+    padding: 60px 20px;
+    color: #C28852;
+    text-align: center;
+  }
+
+  .contact-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .contact-section h2 {
+    color: #C28852;
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-section p {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .form-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+  }
+
+  .form-group label {
+    margin-bottom: 8px;
+    font-size: 2rem;
+    color: #C28852;
+  }
+
+  .form-group input, .form-group textarea {
+    padding: 15px;
+    font-size: 1.5rem;
+    color: #fff;
+    background-color: #2E3D43;
+    border: 2px solid #C28852;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  .form-group input::placeholder, .form-group textarea::placeholder {
+    color: #C28852;
+    opacity: 0.8;
+  }
+
+  
+  .form-group input:focus, .form-group textarea:focus {
+    border-color: #FFB347; 
+  }
+
+ 
+  .contact-btn {
+    padding: 15px 30px;
+    background-color: #C28852;
+    color: #1B3136;
+    font-size: 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+
+  .contact-btn:hover {
+    background-color: #FFB347;
+    transform: translateY(-3px);
+  }
+
+ 
+  @media (max-width: 768px) {
+    .contact-section h2 {
+      font-size: 2rem;
+    }
+
+    .contact-section p {
+      font-size: 1rem;
+    }
+
+    .contact-btn {
+      font-size: 1.1rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .contact-section h2 {
+      font-size: 1.8rem;
+    }
+
+    .contact-section p {
+      font-size: 0.9rem;
+    }
+
+    .contact-btn {
+      font-size: 1rem;
+    }
+  }
+</style>
+
+{% schema %}
+  {
+    "name": "Custom Contact Section",
+    "settings": []
+  }
+{% endschema %}

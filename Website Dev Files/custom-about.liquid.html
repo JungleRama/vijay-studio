@@ -1,0 +1,246 @@
+<!-- Swiper.js from CDN -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<section class="about-section">
+  <section id="about">
+  <div class="about-container">
+    
+    <div class="about-content brief-intro">
+      <h2>Welcome to Vijay Studio</h2>
+      <p>Welcome to Vijay Studio—where creativity takes flight! This is a glimpse into the creative playground of Vijay Sarathi, where artistry and innovation come together in exciting ways.</p>
+    </div>
+    
+   
+    <div class="about-content expandable-content" id="expandable-content">
+      <p>
+        At Vijay Studio, you’ll discover an eclectic showcase of everything I’m passionate about, from captivating short films and eye-catching commercials to sleek, modern website designs and imaginative digital artwork. My studio is more than just a space for artistic experiments—it’s a vibrant hub where passion and creativity blend seamlessly into every project, whether it’s behind the lens of a camera or crafting stunning visuals on a screen. Here, I push boundaries and explore new possibilities, turning ideas into reality with each creation. Dive deeper into the world of Vijay Sarathi’s art, where every frame, every pixel, and every moment is infused with innovation, magic, and a touch of the unexpected. Let’s create something extraordinary together!
+      </p>
+    </div>
+
+    
+    <div class="toggle-arrow" id="toggle-arrow" onclick="toggleContent()">
+      <span>&#9660;</span> <!-- Down arrow initially -->
+    </div>
+  </div>
+
+  <div class="image-carousel-wrapper">
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+      
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/Vijay-Headshot.jpg?v=1728847024" alt="Work Image 1">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/Kaathirundha-Kangal-Movie-Still.png?v=1728846971" alt="Work Image 2">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/Scarlet-Pirate-Still.png?v=1728846971" alt="Work Image 3">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/The-American-Dream-Poster.jpg?v=1728846973" alt="Work Image 4">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/Acting-BTS-American-Dream.jpg?v=1728846970" alt="Work Image 5">
+      </div>
+      <div class="swiper-slide">
+        <img src="https://cdn.shopify.com/s/files/1/0890/6109/7817/files/Ikea-Commercial-Screenshot.png?v=1728846972" alt="Work Image 6">
+      </div>
+      
+    </div>
+    
+    <div class="swiper-pagination"></div>
+  </div>
+</div>
+
+</section>
+
+<style>
+  .about-section {
+    background-color: #1B3136;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  .about-content {
+    color: #C28852;
+    font-size: 2rem; 
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 20px 0;
+    text-align: left;
+  }
+
+ 
+  .about-content h2 {
+    color: #C28852;
+    font-size: 3rem; 
+    margin-bottom: 20px;
+  }
+
+  
+  .toggle-arrow {
+    color: #C28852;
+    font-size: 2.5rem;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  
+  .arrow-up {
+    transform: rotate(180deg);
+  }
+
+  
+  .expandable-content {
+    display: none;
+  }
+
+.image-carousel-wrapper {
+  max-width: 1000px; 
+  margin: 40px auto;
+  overflow: hidden;
+  position: relative; 
+}
+
+.swiper-container {
+  width: 100%;
+  height: 400px;
+  position: relative; 
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; 
+  border-radius: 10px;
+  max-height: 400px;
+  background-color: #1B3136; 
+}
+
+
+.swiper-pagination {
+  position: absolute; 
+  bottom: 10px; 
+  left: 0;
+  width: 100%;
+  text-align: center; 
+}
+
+.swiper-pagination-bullet {
+  background-color: #C28852; 
+  opacity: 0.8;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #FFB347; 
+}
+  
+  
+  @media (max-width: 1024px) {
+    .about-content h2 {
+      font-size: 2.5rem;
+    }
+
+    .about-content {
+      font-size: 1.3rem;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .about-content h2 {
+      font-size: 2rem;
+    }
+
+    .about-content {
+      font-size: 1.1rem;
+    }
+
+    .toggle-arrow {
+      font-size: 2rem;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .about-content h2 {
+      font-size: 1.8rem;
+    }
+
+    .about-content {
+      font-size: 1rem;
+    }
+
+    .toggle-arrow {
+      font-size: 1.8rem;
+    }
+  }
+  @media (max-width: 768px) {
+  .swiper-container {
+    height: 300px; 
+  }
+
+  .swiper-slide img {
+    max-height: 300px; 
+  }
+}
+
+  @media (max-width: 480px) {
+  .swiper-container {
+    height: 200px; 
+  }
+
+  .swiper-slide img {
+    max-height: 200px;
+  }
+}
+</style>
+
+<script>
+  function toggleContent() {
+    var content = document.getElementById("expandable-content");
+    var arrow = document.getElementById("toggle-arrow");
+    
+    if (content.style.display === "none" || content.style.display === "") {
+      content.style.display = "block";
+      arrow.classList.add("arrow-up"); 
+    } else {
+      content.style.display = "none";
+      arrow.classList.remove("arrow-up"); 
+    }
+  }
+  
+var swiper = new Swiper('.swiper-container', {
+  loop: true, 
+  autoplay: {
+    delay: 5000, 
+    disableOnInteraction: false, 
+  },
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+});
+
+</script>
+
+{% schema %}
+  {
+    "name": "Custom About Section",
+    "settings": []
+  }
+{% endschema %}
